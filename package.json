@@ -1,0 +1,17 @@
+{
+  "name": "web3research-report-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Daily autonomous Web3 industry research report agent",
+  "main": "agent.mjs",
+  "scripts": {
+    "start": "node agent.mjs",
+    "setup": "npm install && npx playwright install chromium --with-deps"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "playwright": "^1.44.0",
+    "siwe": "^2.3.2"
+  }
+}
